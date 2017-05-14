@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "538616751450",
+    "firebase_url": "https://ffms-ad272.firebaseio.com",
+    "project_id": "ffms-ad272",
+    "storage_bucket": "ffms-ad272.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:538616751450:android:ab1cedf84aac275e",
+        "android_client_info": {
+          "package_name": "com.example.alexwai.ffms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "538616751450-1evug4bu63107b8o4luqlvm77e7qb1ni.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.alexwai.ffms",
+            "certificate_hash": "758574a01b343e9cb9a51a8999364772751eac2b"
+          }
+        },
+        {
+          "client_id": "538616751450-mokh5tvkbs86qpv7ncsm2k58dhpji9la.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC34gxtVSn_1C2BY485wXet91y42uie1fg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "538616751450-mokh5tvkbs86qpv7ncsm2k58dhpji9la.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
