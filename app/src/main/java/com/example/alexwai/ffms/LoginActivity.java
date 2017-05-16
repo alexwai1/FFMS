@@ -73,8 +73,8 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
             textInputLayoutEmail.setErrorEnabled(false);
         }
 
-        if(editTextPassword.getText().toString().isEmpty() || editTextPassword.length()<6){
-            textInputLayoutPassword.setError("Password minimum length 6 characters");
+        if(editTextPassword.getText().toString().isEmpty()){
+            textInputLayoutPassword.setError("Password is invalid");
             valid = false;
         }
         else {

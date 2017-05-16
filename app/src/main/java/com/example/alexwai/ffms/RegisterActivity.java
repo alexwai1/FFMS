@@ -72,7 +72,7 @@ public class RegisterActivity extends AppCompatActivity implements View.OnClickL
         }
 
         if (valid == true){
-            progressDialog.setMessage("Registering");
+            progressDialog.setMessage("Registering...");
             progressDialog.show();
 
             firebaseAuth.createUserWithEmailAndPassword(email, password)

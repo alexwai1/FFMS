@@ -99,7 +99,7 @@ public class DashboardActivity extends AppCompatActivity implements NavigationVi
         int id = item.getItemId();
 
         if (id == R.id.navMain){
-            Toast.makeText(DashboardActivity.this, "Main Toast Message", Toast.LENGTH_SHORT).show();
+            drawerLayout.closeDrawers();
         }
 
         if (id == R.id.navLogOut){

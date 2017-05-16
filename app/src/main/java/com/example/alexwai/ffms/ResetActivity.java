@@ -54,7 +54,7 @@ public class ResetActivity extends AppCompatActivity implements View.OnClickList
         }
 
         if(valid == true){
-            progressDialog.setMessage("Requesting For Password Reset");
+            progressDialog.setMessage("Requesting for password reset...");
             progressDialog.show();
 
             firebaseAuth.sendPasswordResetEmail(email)
@@ -63,7 +63,7 @@ public class ResetActivity extends AppCompatActivity implements View.OnClickList
                         public void onComplete(@NonNull Task<Void> task) {
                             if (task.isSuccessful()){
                                 progressDialog.dismiss();
-                                Toast.makeText(ResetActivity.this, "Password Reset Email Sent", Toast.LENGTH_SHORT).show();
+                                Toast.makeText(ResetActivity.this, "Password reset email sent", Toast.LENGTH_SHORT).show();
                                 finish();
                                 startActivity(new Intent(getApplicationContext(), LoginActivity.class));
                             }
